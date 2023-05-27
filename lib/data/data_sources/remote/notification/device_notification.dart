@@ -45,7 +45,8 @@ class DeviceNotification {
             'Content-Type': 'application/json',
 
             /// conect with cloud messaging and get server key from project settings here
-            /// replace the points with your key  "key=...." and set it in [notificationKey]
+            /// replace the point
+            /// s with your key  "key=...." and set it in [notificationKey]
             'Authorization': notificationKey,
           },
           body: jsonEncode(pushNotification.toMap()),
