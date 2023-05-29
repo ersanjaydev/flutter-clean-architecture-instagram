@@ -5,6 +5,7 @@ import 'package:instagram/config/routes/app_routes.dart';
 import 'package:instagram/core/functions/toast_show.dart';
 import 'package:instagram/core/resources/strings_manager.dart';
 import 'package:instagram/core/utility/constant.dart';
+import 'package:instagram/core/utility/private_keys.dart';
 import 'package:instagram/data/models/parent_classes/without_sub_classes/message.dart';
 import 'package:instagram/data/models/parent_classes/without_sub_classes/user_personal_info.dart';
 import 'package:instagram/domain/entities/sender_info.dart';
@@ -131,7 +132,7 @@ class _ChattingPageState extends State<ChattingPage>
           width: 10,
         ),
         Text(
-          "Instagram",
+          appTitle,
           style: TextStyle(
               color: Theme.of(context).focusColor,
               fontSize: 14,

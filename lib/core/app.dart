@@ -9,6 +9,7 @@ import 'package:instagram/core/resources/color_manager.dart';
 import 'package:instagram/core/translations/app_lang.dart';
 import 'package:instagram/core/translations/translations.dart';
 import 'package:instagram/core/utility/constant.dart';
+import 'package:instagram/core/utility/private_keys.dart';
 import 'package:instagram/presentation/pages/register/login_page.dart';
 import 'package:instagram/presentation/pages/register/widgets/get_my_user_info.dart';
 import 'package:instagram/presentation/widgets/global/others/multi_bloc_provider.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
           locale: Locale(controller.appLocale),
           fallbackLocale: const Locale('en'),
           debugShowCheckedModeBanner: false,
-          title: 'Instagram',
+          title: appTitle,
           theme: AppTheme.light,
           darkTheme: AppTheme.dark,
           themeMode: ThemeOfApp().theme,

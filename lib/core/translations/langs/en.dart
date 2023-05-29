@@ -35,7 +35,7 @@ const Map<String, String> en = {
   "suggestionsForYou": "Suggestions for you",
   "create": "Create",
   "noUsers": "There is no users yet!",
-  "welcomeToInstagram": "Welcome to Instagram",
+  "welcomeToInstagram": "Welcome to Social Chat",
   "followPeopleToSee": "Follow people to start seeing the photos and",
   "videosTheyShare": "videos they share.",
   "signUp": "Sign up",

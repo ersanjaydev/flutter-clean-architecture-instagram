@@ -18,6 +18,7 @@ import 'package:instagram/core/resources/strings_manager.dart';
 import 'package:instagram/core/resources/styles_manager.dart';
 import 'package:instagram/core/translations/app_lang.dart';
 import 'package:instagram/core/utility/constant.dart';
+import 'package:instagram/core/utility/private_keys.dart';
 import 'package:instagram/data/models/parent_classes/without_sub_classes/message.dart';
 import 'package:instagram/data/models/parent_classes/without_sub_classes/user_personal_info.dart';
 import 'package:instagram/domain/entities/sender_info.dart';
@@ -1120,7 +1121,7 @@ class _ChatMessagesState extends State<ChatMessages>
           width: 10,
         ),
         Text(
-          "Instagram",
+          appTitle,
           style: TextStyle(
               color: Theme.of(context).focusColor,
               fontSize: 14,
