@@ -18,7 +18,7 @@ class CustomImagePickerPlus {
         cropImage: true,
         tabsTexts: tapsNames(),
         appTheme: appTheme(context),
-        sendRequestFunction: (details) async {
+        callbackFunction: (details) async {
           await moveToCreationPage(context, details);
         },
       ),
